@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "resai_py_lib"
+
+[packages]
+vistir = "==0.6.1"
+jsonpickle = "*"
+psutil = "*"
+
+[dev-packages]
+pipenv-setup = "*"
+vistir = "0.6.1"
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.0"
